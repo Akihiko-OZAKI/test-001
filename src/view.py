@@ -14,6 +14,7 @@ def index():
     #return 'Hello World!'
     return render_template('index.html')
 
+#
 #以下はローカル実行のときのみ使用する
 #if __name__ == '__main__':
 #    app.run()
